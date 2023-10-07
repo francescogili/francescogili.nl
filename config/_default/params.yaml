@@ -1,0 +1,126 @@
+# SITE SETUP
+# Guide: https://wowchemy.com/docs/getting-started/
+# Documentation: https://wowchemy.com/docs/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+# earth + rose
+appearance:
+  theme_day: my_theme3
+  #theme_night: my_theme
+  font: my_font
+  font_size: L
+
+# SEO
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    twitter: 'wowchemy'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+
+header:
+  navbar:
+    # Choose a navigation block
+    block: navbar
+    # Display the navigation bar?
+    enable: true
+    # Align menu links: left (l), center (c), or right (r)
+    align: r
+    # Display your site title or `assets/media/logo*` image in the nav bar?
+    show_logo: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: false
+    # If `show_translations` is enabled, do you wish to display the current language name?
+    show_language: false
+    # Let the user override the default light/dark mode of your theme?
+    show_day_night: false
+    # Let the user search from the nav bar?
+    show_search: false
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
+    highlight_active_link: true
+
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} Francesco Gili. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: false
+      allow_commercial: false
+
+# Localization
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
+
+# Site features
+
+features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: square
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Security
+
+security:
+  # Allow frame for embedding speaker notes in slides
+  allow_frame: true

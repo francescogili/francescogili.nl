@@ -1,0 +1,15 @@
+name = "my_theme2"
+
+[light]
+    primary = "#c7cedf"
+
+    menu_primary = "#e6e0da"
+    menu_text = "#fff"
+    menu_text_active = "#c7cedf"
+    menu_title = "#c7cedf"
+
+    home_section_odd = "#fff"
+    home_section_even = "#f8f5f2"
+
+    link = "#c7cedf"
+    link_hover = "#8d9bbc"

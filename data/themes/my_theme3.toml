@@ -1,0 +1,16 @@
+name = "my_theme3"
+
+[light]
+    primary = "#2a475a" #links like linkedin
+
+    menu_primary = "#E6E8E9" #upper bar
+    menu_text = "#2a475a" #self explain
+    menu_text_active = "#2a475a" #self explain
+    menu_title = "#2a475a"
+
+    home_section_odd = "#EEEEEE"
+    home_section_even = "#EEEEEE" #text sections background
+
+    link = "#2a475a"
+    link_hover = "#2a475a"
+    link_decoration = "underline"
