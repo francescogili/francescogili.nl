@@ -5,8 +5,8 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'Francesco Gili' # Website name
-baseURL: 'https://francescogili.github.io/' # Website URL
-#baseURL: 'http://www.francescogili.nl/'
+#baseURL: 'https://francescogili.github.io/' # Website URL
+baseURL: 'http://www.francescogili.nl/'
 ############################
 ## LANGUAGE
 ############################
