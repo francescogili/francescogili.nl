@@ -30,7 +30,7 @@ tags:
 title: Efficient Isotonic Estimation in Wicksell Problem
 url_code: 
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: #http://arxiv.org/pdf/1512.04133v1
 url_poster: ""
 url_project: ""
 url_slides: ""
