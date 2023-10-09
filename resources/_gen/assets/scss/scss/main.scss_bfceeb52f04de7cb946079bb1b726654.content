@@ -9668,16 +9668,16 @@ div.chart {
 
 @-webkit-keyframes slide-from-right {
   0% {
-    -webkit-transform: translateX(150%);
-    transform: translateX(150%); }
+    -webkit-transform: translateX(170%);
+    transform: translateX(170%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
 
 @keyframes slide-from-right {
   0% {
-    -webkit-transform: translateX(150%);
-    transform: translateX(150%); }
+    -webkit-transform: translateX(170%);
+    transform: translateX(170%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
@@ -9688,25 +9688,28 @@ div.chart {
 
 #about .main-content {
   -webkit-animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;
-  -webkit-animation-delay: 100ms;
-  animation-delay: 100ms; }
+  animation: slide-from-right 1s cubic-bezier(0.87, 0, 0.13, 1) forwards; }
 
 @-webkit-keyframes slide-from-left {
   0% {
-    -webkit-transform: translateX(-150%);
-    transform: translateX(-150%); }
+    -webkit-transform: translateX(-170%);
+    transform: translateX(-170%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
 
 @keyframes slide-from-left {
   0% {
-    -webkit-transform: translateX(-150%);
-    transform: translateX(-150%); }
+    -webkit-transform: translateX(-170%);
+    transform: translateX(-170%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
+
+#about .btn-download {
+  opacity: 0;
+  animation: fade-in 2s forwards;
+  animation-delay: 1.4s; }
 
 #about #profile {
   -webkit-animation: slide-from-left 1s cubic-bezier(0.87, 0, 0.13, 1) forwards;

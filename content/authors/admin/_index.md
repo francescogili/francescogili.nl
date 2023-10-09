@@ -56,9 +56,15 @@ title: Francesco Gili
 
 Are you interested in [Asymptotic Statistics](https://www.cambridge.org/core/books/asymptotic-statistics/A3C7DAD3F7E66A1FA60E9C8FE132EE1D) in [Inverse Problems under Shape Constraints](https://www.cambridge.org/nl/academic/subjects/statistics-probability/statistical-theory-and-methods/nonparametric-estimation-under-shape-constraints-estimators-algorithms-and-asymptotics?format=HB&isbn=9780521864015)? Or in [Nonparametric Bayesian Inference](https://www.cambridge.org/core/books/fundamentals-of-nonparametric-bayesian-inference/C96325101025D308C9F31F4470DEA2E8) in [Inverse Problems](https://en.wikipedia.org/wiki/Inverse_problem)? If yes, we have already much in common! These are my current research topics.
 
-Other interests we might have in common: [Causal Inference](https://en.wikipedia.org/wiki/Causal_inference) and [Graphical Models](https://en.wikipedia.org/wiki/Graphical_model#:~:text=A%20graphical%20model%20or%20probabilistic,Bayesian%20statistics%E2%80%94and%20machine%20learning.), [Hypothesis Testing and Optional Stopping](https://safestatistics.com/testing-with-optional-stopping/) and [Statistical Time Series](https://en.wikipedia.org/wiki/Time_series).
+Other mathematical interests we might have in common: [Causal Inference](https://en.wikipedia.org/wiki/Causal_inference) and [Graphical Models](https://en.wikipedia.org/wiki/Graphical_model#:~:text=A%20graphical%20model%20or%20probabilistic,Bayesian%20statistics%E2%80%94and%20machine%20learning.), [Hypothesis Testing and Optional Stopping](https://safestatistics.com/testing-with-optional-stopping/) and [Statistical Time Series](https://en.wikipedia.org/wiki/Time_series).
+
+To thank you for visiting my website [here](https://open.spotify.com/intl-it/album/1nvzBC1M3dlCMIxfUCBhlO?autoplay=true) you find one of my favourite albums and [here](https://www.poetryfoundation.org/poems/47541/keeping-things-whole) one of my favourite poems. Feel free to contact me to discuss anything you believe we have in common.
 
 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
 
 
 
