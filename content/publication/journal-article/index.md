@@ -5,9 +5,9 @@ abstract: We consider the nonparametric estimation in the so-called Wicksell’s
 #- Equal contribution
 authors:
 - admin
-- Aad van der Vaart
 - Geurt Jongbloed
-date: "2023-03-01T00:00:00Z"
+- Aad van der Vaart
+date: "2023-10-01T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -19,7 +19,7 @@ publication:
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2023-03-01T00:00:00Z"
+publishDate: "2023-10-01T00:00:00Z"
 #slides: example
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -27,10 +27,10 @@ tags:
 - Shape Constraint Inference
 - Efficient Estimation
 - Minimax Theorem
-title: Efficient Isotonic Estimation in Wicksell Problem
+title: Adaptive and Efficient Isotonic Estimation in Wicksell's Problem
 url_code: 
 url_dataset: ""
-url_pdf: #http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://arxiv.org/pdf/2310.05463.pdf
 url_poster: ""
 url_project: ""
 url_slides: ""
