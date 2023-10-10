@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://francescogili.github.io/R/</loc>
+    <loc>https://www.francescogili.nl/R/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/assets/</loc>
+    <loc>https://www.francescogili.nl/assets/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/</loc>
+    <loc>https://www.francescogili.nl/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/config/_default/</loc>
+    <loc>https://www.francescogili.nl/config/_default/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/content/</loc>
+    <loc>https://www.francescogili.nl/content/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/data/</loc>
+    <loc>https://www.francescogili.nl/data/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/layouts/</loc>
+    <loc>https://www.francescogili.nl/layouts/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/resources/_gen/</loc>
+    <loc>https://www.francescogili.nl/resources/_gen/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/static/</loc>
+    <loc>https://www.francescogili.nl/static/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://francescogili.github.io/themes/</loc>
+    <loc>https://www.francescogili.nl/themes/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
 </urlset>
