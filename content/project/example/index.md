@@ -15,7 +15,7 @@ tags:
 - Shape Constraint Inference
 title: Efficient Isotonic Estimation in Wicksell Problem
 url_code: ""
-url_pdf: https://arxiv.org/pdf/2310.05463.pdf
+#url_pdf: https://arxiv.org/pdf/2310.05463.pdf
 url_slides: ""
 url_video: ""
 ---
