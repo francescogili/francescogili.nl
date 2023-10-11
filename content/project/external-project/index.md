@@ -1,5 +1,5 @@
 ---
-date: "2023-10-27T00:00:00Z"
+date: "2023-10-01T00:00:00Z"
 #external_link: https://pypi.org/project/isotonic-estimator-lib/0.0.7/#description
 image:
   caption: 
