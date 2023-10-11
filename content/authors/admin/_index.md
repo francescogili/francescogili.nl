@@ -52,7 +52,7 @@ status:
 superuser: true
 title: Francesco Gili
 ---
-</br > I am a PhD candidate in Mathematical Statistics at [Delft University of Technology](https://www.tudelft.nl/) under the supervision of [Prof. Aad van der Vaart](https://fa.ewi.tudelft.nl/~vaart/) and [Prof. Geurt Jongbloed](https://www.tudelft.nl/actueel/177th-dies-natalis-tu-delft/symposium/geurt-jongbloed).
+</br > I am a PhD candidate in Mathematical Statistics at [Delft University of Technology](https://www.tudelft.nl/) under the supervision of [Prof. Aad van der Vaart](https://fa.ewi.tudelft.nl/~vaart/) and [Prof. Geurt Jongbloed](https://www.linkedin.com/in/geurtjongbloed/?originalSubdomain=nl).
 
 Are you interested in [Asymptotic Statistics](https://www.cambridge.org/core/books/asymptotic-statistics/A3C7DAD3F7E66A1FA60E9C8FE132EE1D) in [Inverse Problems under Shape Constraints](https://www.cambridge.org/core/books/nonparametric-estimation-under-shape-constraints/881B662EEF5B5266E5E4D80E6153FCDA)? Or in [Nonparametric Bayesian Inference](https://www.cambridge.org/core/books/fundamentals-of-nonparametric-bayesian-inference/C96325101025D308C9F31F4470DEA2E8) in [Inverse Problems](https://en.wikipedia.org/wiki/Inverse_problem)? If yes, we have already much in common! These are my current research topics.
 
