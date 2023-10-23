@@ -144,7 +144,7 @@ sections:
     #  icon_pack: fas
     #  link: https://zoom.com
     #  name: Zoom Me
-    directions: Mekelweg 4, 2628 CD Delft, NL. Office HB06.032.
+    directions: Mekelweg 4, 2628 CD Delft, NL. Office HB 06.040.
     email: f.gili@tudelft.nl
     office_hours: Contact me for office hours, or schedule an appointment.
     #phone: 888 888 88 88
