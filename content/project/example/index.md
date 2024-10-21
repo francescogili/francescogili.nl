@@ -1,5 +1,5 @@
 ---
-date: "2023-10-01T00:00:00Z"
+date: "2023-10-27T00:00:00Z"
 external_link: ""
 image:
   caption: 
@@ -10,49 +10,13 @@ image:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 #slides: example
-summary: We consider the nonparametric estimation in the so-called Wicksell's problem and we show that the isotonized version of the plug-in estimator is asymptotically efficient. The asymptotic variance will depend on the local smoothness at the estimation point and at zero of the unknown distribution function F of the ball squared radii. This solves in an adaptive way the nonparametric estimation problem.
+summary: We consider nonparametric estimation in Wicksell's problem which has relevant applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions and in material sciences to determine the 3D microstructure of a material, using its 2D cross sections. We study the isotonized version of the plug-in estimator (IIE) for the underlying cdf F of the spheres' squared radii and show it is an adaptive, easy-to-compute, and efficient estimator for estimating the underlying distribution function F. 
 tags:
 - Shape Constraint Inference
-title: Efficient Isotonic Estimation in Wicksell Problem
+title: Adaptive and Efficient Isotonic Estimation in Wicksell's Problem
 url_code: ""
-url_pdf: https://arxiv.org/pdf/2310.05463.pdf
+url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
-
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\(','\\)']],
-      processEscapes: true},
-      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-      TeX: {
-      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-      equationNumbers: {
-      autoNumber: "AMS"
-      }
-    }
-  });
-</script>
-
-<div style="text-align: justify">
-
-In this paper we consider nonparametric estimation in the classical Wicksell corpuscle problem: consider an opaque medium that contains randomly positioned 3D spherical particles, that cannot be observed directly. Taking a planar section of the medium, we obtain a sample of observed 2D section profile areas of the intersected particles. The distribution function $F$ of interest is the underlying distribution of the 3D particle squared radii. We take as a starting point the work done in the paper "Isotonic Estimation and Rates of Convergence in Wicksell's problem." by G. Jongbloed and P. Groeneboom, where they introduce the isotonized version of the plug-in estimator, called isotonic estimator, and they analyze it when the underlying $F$ is differentiable at the estimation point $x$. We generalize their setting as we do not require $F$ to be differentiable at $x$ and we allow it to have different degrees of smoothness at that point. 
-
-
-The main results of this paper are as follows. First, we prove that the isotonic estimator is point-wise asymptotically normal with asymptotic variance that depends on the local degree of smoothness of the underlying distribution function $F$ at $x$. This dependence is expressed through a parameter $\gamma > 1/2$ which can be interpreted as the degree of Hölder smoothness at $x$ of $F$. In this case, the rate of convergence is the usual $(\log{n})^{-1/2} \sqrt{n}$ and the isotonic estimator attains such asymptotic variance in a completely adaptive way, which means without needing knowledge about the true $\gamma$. For $\gamma = 1$, we retrieve the result of Jongbloed and Groeneboom. For the case corresponding to $\gamma = \infty$, i.e. the case $F$ is constant in a neighborhood of the estimation point $x$, we prove a further adaptiveness result as the isotonic estimator attains the $\sqrt{n}$-rate of convergence. In this case, the limiting distribution is not normal. Both these results are novel in their nature and illustrate the adaptiveness of the isotonic estimator.
-
-
-Concerning the efficiency, we show in the $(\log{n})^{-1/2} \sqrt{n}$ case that the isotonic estimator is also locally asymptotically efficient. We do this by proving a classical lower bound for the minimax risk for any estimator sequence, which also holds under local smoothness conditions of $F$. This shows, whenever all conditions are satisfied, that the previously attained $\gamma$-dependent variance is optimal in the asymptotic minimax sense, and thus the isotonic estimator is asymptotically efficient.
-
-</div>
+We consider nonparametric estimation in Wicksell's problem which has relevant applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions (cf. Sen, B. and Woodroofe,  F. N.  (2012)) and in material sciences to determine the 3D microstructure of a material, using its 2D cross sections (cf. Cuzzi, J. and Olson, D. (2017) or  Lopez-Sanchez, M. A. and LLana-Fúnez, S. (2016)). In the classical setting, an opaque medium that contains randomly positioned 3D spherical particles, that cannot be observed directly, is considered. Taking a planar section of the medium, we obtain a sample of observed 2D section profile areas of the intersected particles. The distribution function F of interest is the underlying distribution of the 3D particle squared radii. In this setting, we study the isotonized version of the plug-in estimator (IIE cf. Groeneboom, P. and Jongbloed, G. (1995)) for the underlying cdf F of the spheres' squared radii. This estimator is fully automatic, in the sense that it does not rely on tuning parameters, and we show it is adaptive to local smoothness properties of the distribution function F to be estimated. Moreover, we prove a local asymptotic minimax lower bound in this non-standard setting, with √logn/n-asymptotics and where the functional F to be estimated is not regular. Combined, our results prove that the isotonic estimator (IIE) is an adaptive, easy-to-compute, and efficient estimator for estimating the underlying distribution function F. Our results cover several novel theoretical findings, which prove essentially that the isotonic estimator is naturally adaptive and efficient in the classical statistical sense. No other estimators for the classical Wicksell’s problem have been shown to have all these properties. Therefore this work is of relevance also from the application point of view, in fields like materials science, astronomy and biosciences, because it shows that the isotonic estimator is the unequivocal choice for practitioners, surpassing alternative estimators previously proposed in Wicksell's problem.
