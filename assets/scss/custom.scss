@@ -106,6 +106,14 @@
               animation-delay: 1.3s;
     }
     
+    .fa-graduation-cap {
+      opacity: 0;
+      -webkit-animation: grow 2s ease forwards;
+              animation: grow 2s ease forwards;
+      -webkit-animation-delay: 1.3s;
+              animation-delay: 1.3s;
+    }
+
     .fa-github {
       opacity: 0;
       -webkit-animation: grow 2s ease forwards;
