@@ -30,7 +30,7 @@ tags:
 title: Asymptotically efficient estimation under local constraint in Wicksell's problem
 url_code: 
 url_dataset: ""
-url_pdf: https://arxiv.org/abs/2410.14263
+url_pdf: https://arxiv.org/pdf/2410.14263
 url_poster: ""
 url_project: ""
 url_slides: ""

@@ -64,6 +64,8 @@ sections:
       tag: '*'
     - name: Shape Constraint Inference 
       tag: Shape Constraint Inference
+    - name: Bayesian Inverse Problems 
+      tag: Bayesian Inverse Problems
     - name: Other
       tag: Demo
     default_button_index: 0
