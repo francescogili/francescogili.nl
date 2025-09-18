@@ -7,7 +7,7 @@ authors:
 - admin
 - Aad van der Vaart
 - Geurt Jongbloed
-date: "2025-11-10T00:00:00Z"
+date: "2025-08-10T00:00:00Z"
 doi: "https://www.e-publications.org/ims/submission/AOS/user/submissionFile/69144?confirm=e5c8efd9"
 featured: false
 image:
@@ -19,7 +19,7 @@ publication: "To Appear in The Annals of Statistics, Issue December 2025"
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2025-11-10T00:00:00Z"
+publishDate: "2025-08-10T00:00:00Z"
 #slides: example
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

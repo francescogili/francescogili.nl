@@ -7,7 +7,7 @@ authors:
 - admin
 - Aad van der Vaart
 - Geurt Jongbloed
-date: "2025-10-10T00:00:00Z"
+date: "2025-07-10T00:00:00Z"
 doi: "https://doi.org/10.1016/j.jspi.2025.106299"
 featured: false
 image:
@@ -19,7 +19,7 @@ publication: "Journal of Statistical Planning and Inference, Elsevier, 240-10629
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2025-10-10T00:00:00Z"
+publishDate: "2025-07-10T00:00:00Z"
 #slides: example
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
