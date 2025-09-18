@@ -30,25 +30,7 @@
 &lt;p&gt;&lt;strong&gt;Uncertainty quantification&lt;/strong&gt;: The Bayesian framework inherently provides uncertainty quantification without the need to estimate any parameter. We also showed that this is asymptotically correct in the frequentist sense.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Semiparametric Bernstein-von Mises Phenomenon via Isotonized Posterior in Wicksell&#39;s problem</title>
-      <link>http://www.francescogili.nl/publication/journal-article3/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://www.francescogili.nl/publication/journal-article3/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NEWS: the last version of the paper has been accepted for publication in The Annals of Statistics.&lt;/strong&gt; link to last version: &lt;a href=&#34;https://arxiv.org/pdf/2502.15352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2502.15352&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -59,25 +41,6 @@
       <guid>http://www.francescogili.nl/project/example1/</guid>
       <description>&lt;p&gt;We consider nonparametric estimation in Wicksell&amp;rsquo;s problem which has relevant applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions (cf. Sen, B. and Woodroofe,  F. N.  (2012)) and in material sciences to determine the 3D microstructure of a material, using its 2D cross sections (cf. Cuzzi, J. and Olson, D. (2017) or  Lopez-Sanchez, M. A. and LLana-Fúnez, S. (2016)). In the classical setting, an opaque medium that contains randomly positioned 3D spherical particles, that cannot be observed directly, is considered. Taking a planar section of the medium, we obtain a sample of observed 2D section profile areas of the intersected particles. The distribution function F of interest is the underlying distribution of the 3D particle squared radii. Under smoothness conditions on F in a neighborhood of x, it was shown in Gili, Jongbloed and van der Vaart (2024) that the Isotonic Inverse Estimator (IIE) is asymptotically efficient, achieving a convergence rate of √n/logn. When F is constant over an interval containing x, the optimal convergence rate improves to √n, and the IIE attains this rate adaptively, without requiring explicit knowledge of the local constancy. However, in this scenario, the asymptotic distribution is non-normal. In this paper, we present three informed projection-type estimators of F, which utilize the interval of constancy information, and show that all three are asymptotically normal and equivalent. Additionally, we establish a local asymptotic minimax lower bound in this context, demonstrating the asymptotic efficiency of the informed estimators, and provide a convolution result indicating that the IIE is not efficient. We also derive the asymptotic distribution of the difference between the IIE and the efficient estimators, confirming that the IIE is not asymptotically equivalent to the informed estimators. Lastly, through a simulation study, we show that even if the IIE is not efficient, its performance closely resembles that of its competitors. Our results cover several novel theoretical findings, which prove essentially that the IIE of Gili, Jongbloed and van der Vaart (2024) is not efficient in the classical statistical sense when F is constant over an interval. On the other hand, we provide estimators that are asymptotically normal and efficient, if the interval of constancy is known.&lt;/p&gt;
 &lt;p&gt;Therefore this work is of relevance also from the application point of view, in fields like materials science, astronomy and biosciences, because it shows that the isotonic estimator should not be used by practitioners whenever the underlying F is known to be constant on an interval. Whenever this information is not known, this article confirms that the IIE remains the unequivocal choice for practitioners as its performance is very close to that of the informed competitors and in all other situations it is efficient (c.f. Gili, Jongbloed and van der Vaart (2024)).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Asymptotically efficient estimation under local constraint in Wicksell&#39;s problem</title>
-      <link>http://www.francescogili.nl/publication/journal-article2/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.francescogili.nl/publication/journal-article2/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
