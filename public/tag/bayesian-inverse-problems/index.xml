@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian inverse problems | Francesco Gili</title>
+    <link>http://www.francescogili.nl/tag/bayesian-inverse-problems/</link>
+      <atom:link href="http://www.francescogili.nl/tag/bayesian-inverse-problems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bayesian inverse problems</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.francescogili.nl/media/icon_hu5e485dbe3255a41d0e5c231f081e5a2a_81353_512x512_fill_lanczos_center_3.png</url>
+      <title>Bayesian inverse problems</title>
+      <link>http://www.francescogili.nl/tag/bayesian-inverse-problems/</link>
+    </image>
+    
+    <item>
+      <title>Bernstein-von Mises phenomenon via Isotonized posterior in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/project/example2/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/project/example2/</guid>
+      <description>&lt;p&gt;We propose a novel Bayesian approach for nonparametric estimation in Wicksell&amp;rsquo;s problem. We deviate from the classical Bayesian nonparametric approach, which would place a Dirichlet Process (DP) prior on the distribution function of the unobservables, by directly placing a DP prior on the distribution function of the observables. Our method offers computational simplicity due to the conjugacy of the posterior and allows for asymptotically efficient estimation by projecting the posterior onto the subspace of square integrable increasing, right-continuous functions. Indeed, the resulting Isotonized Inverse Posterior (IIP) satisfies a Bernstein-von Mises (BvM) phenomenon with minimax asymptotic variance, that depends on the degree of Hölder continuity of the true cdf at the estimation point. Since the IIP gives automatic uncertainty quantification, it eliminates the need to estimate the smoothness of the underlying cdf and other any other parameter. Our results provide the first semiparametric Bernstein–von Mises theorem for projection-based posteriors with a DP prior in inverse problems.&lt;/p&gt;
+&lt;p&gt;Thus, this approach has three advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Computational speed&lt;/strong&gt;: The Dirichlet posterior is explicit, and its projection can be effectively computed using the Pool-Adjacent-Violators Algorithm (PAVA).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Efficiency and adaptation&lt;/strong&gt;: The IIP achieves the asymptotic variance of the efficient estimators introduced in Gili, Jongbloed and van der Vaart (2024), and it is adaptive to the level of local smoothness of the underlying cdf.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uncertainty quantification&lt;/strong&gt;: The Bayesian framework inherently provides uncertainty quantification without the need to estimate any parameter. We also showed that this is asymptotically correct in the frequentist sense.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semiparametric Bernstein-von Mises Phenomenon via Isotonized Posterior in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/publication/journal-article3/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/publication/journal-article3/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

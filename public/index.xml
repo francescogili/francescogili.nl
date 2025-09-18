@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francesco Gili</title>
+    <link>http://www.francescogili.nl/</link>
+      <atom:link href="http://www.francescogili.nl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Francesco Gili</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://www.francescogili.nl/media/icon_hu5e485dbe3255a41d0e5c231f081e5a2a_81353_512x512_fill_lanczos_center_3.png</url>
+      <title>Francesco Gili</title>
+      <link>http://www.francescogili.nl/</link>
+    </image>
+    
+    <item>
+      <title>Bernstein-von Mises phenomenon via Isotonized posterior in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/project/example2/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/project/example2/</guid>
+      <description>&lt;p&gt;We propose a novel Bayesian approach for nonparametric estimation in Wicksell&amp;rsquo;s problem. We deviate from the classical Bayesian nonparametric approach, which would place a Dirichlet Process (DP) prior on the distribution function of the unobservables, by directly placing a DP prior on the distribution function of the observables. Our method offers computational simplicity due to the conjugacy of the posterior and allows for asymptotically efficient estimation by projecting the posterior onto the subspace of square integrable increasing, right-continuous functions. Indeed, the resulting Isotonized Inverse Posterior (IIP) satisfies a Bernstein-von Mises (BvM) phenomenon with minimax asymptotic variance, that depends on the degree of Hölder continuity of the true cdf at the estimation point. Since the IIP gives automatic uncertainty quantification, it eliminates the need to estimate the smoothness of the underlying cdf and other any other parameter. Our results provide the first semiparametric Bernstein–von Mises theorem for projection-based posteriors with a DP prior in inverse problems.&lt;/p&gt;
+&lt;p&gt;Thus, this approach has three advantages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Computational speed&lt;/strong&gt;: The Dirichlet posterior is explicit, and its projection can be effectively computed using the Pool-Adjacent-Violators Algorithm (PAVA).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Efficiency and adaptation&lt;/strong&gt;: The IIP achieves the asymptotic variance of the efficient estimators introduced in Gili, Jongbloed and van der Vaart (2024), and it is adaptive to the level of local smoothness of the underlying cdf.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uncertainty quantification&lt;/strong&gt;: The Bayesian framework inherently provides uncertainty quantification without the need to estimate any parameter. We also showed that this is asymptotically correct in the frequentist sense.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semiparametric Bernstein-von Mises Phenomenon via Isotonized Posterior in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/publication/journal-article3/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/publication/journal-article3/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient estimation under local constraint in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/project/example1/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/project/example1/</guid>
+      <description>&lt;p&gt;We consider nonparametric estimation in Wicksell&amp;rsquo;s problem which has relevant applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions (cf. Sen, B. and Woodroofe,  F. N.  (2012)) and in material sciences to determine the 3D microstructure of a material, using its 2D cross sections (cf. Cuzzi, J. and Olson, D. (2017) or  Lopez-Sanchez, M. A. and LLana-Fúnez, S. (2016)). In the classical setting, an opaque medium that contains randomly positioned 3D spherical particles, that cannot be observed directly, is considered. Taking a planar section of the medium, we obtain a sample of observed 2D section profile areas of the intersected particles. The distribution function F of interest is the underlying distribution of the 3D particle squared radii. Under smoothness conditions on F in a neighborhood of x, it was shown in Gili, Jongbloed and van der Vaart (2024) that the Isotonic Inverse Estimator (IIE) is asymptotically efficient, achieving a convergence rate of √n/logn. When F is constant over an interval containing x, the optimal convergence rate improves to √n, and the IIE attains this rate adaptively, without requiring explicit knowledge of the local constancy. However, in this scenario, the asymptotic distribution is non-normal. In this paper, we present three informed projection-type estimators of F, which utilize the interval of constancy information, and show that all three are asymptotically normal and equivalent. Additionally, we establish a local asymptotic minimax lower bound in this context, demonstrating the asymptotic efficiency of the informed estimators, and provide a convolution result indicating that the IIE is not efficient. We also derive the asymptotic distribution of the difference between the IIE and the efficient estimators, confirming that the IIE is not asymptotically equivalent to the informed estimators. Lastly, through a simulation study, we show that even if the IIE is not efficient, its performance closely resembles that of its competitors. Our results cover several novel theoretical findings, which prove essentially that the IIE of Gili, Jongbloed and van der Vaart (2024) is not efficient in the classical statistical sense when F is constant over an interval. On the other hand, we provide estimators that are asymptotically normal and efficient, if the interval of constancy is known.&lt;/p&gt;
+&lt;p&gt;Therefore this work is of relevance also from the application point of view, in fields like materials science, astronomy and biosciences, because it shows that the isotonic estimator should not be used by practitioners whenever the underlying F is known to be constant on an interval. Whenever this information is not known, this article confirms that the IIE remains the unequivocal choice for practitioners as its performance is very close to that of the informed competitors and in all other situations it is efficient (c.f. Gili, Jongbloed and van der Vaart (2024)).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asymptotically efficient estimation under local constraint in Wicksell&#39;s problem</title>
+      <link>http://www.francescogili.nl/publication/journal-article2/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/publication/journal-article2/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive and Efficient Isotonic Estimation in Wicksell&#39;s Problem</title>
+      <link>http://www.francescogili.nl/publication/journal-article/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive and Efficient Isotonic Estimation in Wicksell&#39;s Problem</title>
+      <link>http://www.francescogili.nl/project/example/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/project/example/</guid>
+      <description>&lt;p&gt;We consider nonparametric estimation in Wicksell&amp;rsquo;s problem which has relevant applications in astronomy for estimating the distribution of the positions of the stars in a galaxy given projected stellar positions (cf. Sen, B. and Woodroofe,  F. N.  (2012)) and in material sciences to determine the 3D microstructure of a material, using its 2D cross sections (cf. Cuzzi, J. and Olson, D. (2017) or  Lopez-Sanchez, M. A. and LLana-Fúnez, S. (2016)). In the classical setting, an opaque medium that contains randomly positioned 3D spherical particles, that cannot be observed directly, is considered. Taking a planar section of the medium, we obtain a sample of observed 2D section profile areas of the intersected particles. The distribution function F of interest is the underlying distribution of the 3D particle squared radii. In this setting, we study the isotonized version of the plug-in estimator (IIE cf. Groeneboom, P. and Jongbloed, G. (1995)) for the underlying cdf F of the spheres&amp;rsquo; squared radii. This estimator is fully automatic, in the sense that it does not rely on tuning parameters, and we show it is adaptive to local smoothness properties of the distribution function F to be estimated. Moreover, we prove a local asymptotic minimax lower bound in this non-standard setting, with √logn/n-asymptotics and where the functional F to be estimated is not regular. Combined, our results prove that the isotonic estimator (IIE) is an adaptive, easy-to-compute, and efficient estimator for estimating the underlying distribution function F. Our results cover several novel theoretical findings, which prove essentially that the isotonic estimator is naturally adaptive and efficient in the classical statistical sense. No other estimators for the classical Wicksell’s problem have been shown to have all these properties. Therefore this work is of relevance also from the application point of view, in fields like materials science, astronomy and biosciences, because it shows that the isotonic estimator is the unequivocal choice for practitioners, surpassing alternative estimators previously proposed in Wicksell&amp;rsquo;s problem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python implementation of Isotonic Estimator in Wicksell Problem</title>
+      <link>http://www.francescogili.nl/project/external-project/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/project/external-project/</guid>
+      <description>&lt;p&gt;The implementation of the library&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;isotonic_estimator_lib&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;is essentially based on the PAVA algorithm. Before the publication of this Python Package there was no library in Python that contained the PAVA algorithm (it was available only in R-Studio). See &lt;a href=&#34;https://pypi.org/project/isotonic-estimator-lib/0.0.7/#description&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; for the official Python Library.&lt;/p&gt;
+&lt;p&gt;This package implements the isotonic estimator for Wicksell&amp;rsquo;s problem given in the paper &lt;a href=&#34;https://arxiv.org/pdf/2310.05463.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adaptive and Efficient Isotonic Estimation in Wicksell&amp;rsquo;s Problem&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;How to use the package? After installing the package via the usual command line pip install, the user user can import the package using the lines of code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;isotonic_estimator_lib&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isotonic_estimator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;then, having a vector of observed samples Z, the user can obtain the isotonic estimator together with its plot by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;max_xs&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Z&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;res&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isotonic_estimator&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;estimator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;max_xs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Z&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;where max_xs is needed for plotting purposes only. The resulting estimated cdf F of the hidden radii distribution is now stored into res. The resulting plot should look as follows:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/francescogili/plots_isotonic_estimator_lib/blob/main/test.png?raw=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We have also designed a test application in tkinter which is included in the package and where the user can visualize the performance of the isotonic estimator. After running the following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;isotonic_estimator_lib&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tester_quality&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;tester_quality&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tester&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;a pop-up window will open asking to input a test hidden cdf F which can be chosen between the following set of distributions: &amp;ldquo;gamma, chi, betaprime, pareto, lognormal, truncnorm, arcsine, fatiguelife, weibull&amp;rdquo;. The input is case sensitive. If the user gives non acceptable inputs, the tester will automatically produce an error. The suggested number of samples is 200, and it is not recommended to choose a value higher than 1000. The tester will produce some plots that illustrate the performance of the isotonic estimator. The resulting plot should look like this:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/francescogili/plots_isotonic_estimator_lib/blob/main/gamma.png?raw=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/francescogili/plots_isotonic_estimator_lib/blob/main/lognormal.png?raw=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://github.com/francescogili/plots_isotonic_estimator_lib/blob/main/pareto.png?raw=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://www.francescogili.nl/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://www.francescogili.nl/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>http://www.francescogili.nl/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>http://www.francescogili.nl/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.francescogili.nl/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.francescogili.nl/static/googleb34fe9fbf9e834ac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.francescogili.nl/static/googleb34fe9fbf9e834ac/</guid>
+      <description>google-site-verification: googleb34fe9fbf9e834ac.html</description>
+    </item>
+    
+  </channel>
+</rss>

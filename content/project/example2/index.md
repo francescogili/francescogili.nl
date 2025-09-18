@@ -30,4 +30,4 @@ Thus, this approach has three advantages:
 
 3. **Uncertainty quantification**: The Bayesian framework inherently provides uncertainty quantification without the need to estimate any parameter. We also showed that this is asymptotically correct in the frequentist sense.  
 
-
+**NEWS: the last version of the paper has been accepted for publication in The Annals of Statistics.** link to last version: https://arxiv.org/pdf/2502.15352
