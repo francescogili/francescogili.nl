@@ -15,7 +15,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: "The Annals of Statistics, 54 (1) 383 - 407, February 2026."
+publication: "The Annals of Statistics, 54 (1) 383 - 407, February 2026"
 publication_short: ""
 publication_types:
 - "2"
