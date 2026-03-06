@@ -8,14 +8,14 @@ authors:
 - Aad van der Vaart
 - Geurt Jongbloed
 date: "2025-08-10T00:00:00Z"
-doi: "https://www.e-publications.org/ims/submission/AOS/user/submissionFile/69144?confirm=e5c8efd9"
+doi: "https://doi.org/10.1214/25-AOS2571"
 featured: false
 image:
   caption: 
   focal_point: ""
   preview_only: false
 projects: []
-publication: "To Appear in The Annals of Statistics, Issue December 2025"
+publication: "The Annals of Statistics, 54 (1) 383 - 407, February 2026."
 publication_short: ""
 publication_types:
 - "2"
@@ -30,7 +30,7 @@ tags:
 title: Semiparametric Bernstein-von Mises Phenomenon via Isotonized Posterior in Wicksell's problem
 url_code: 
 url_dataset: ""
-url_pdf: https://arxiv.org/pdf/2502.15352
+url_pdf: https://doi.org/10.1214/25-AOS2571
 url_poster: ""
 url_project: ""
 url_slides: ""
